@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+
+.header h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.headerNav h5 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.headerNav button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  padding: 8px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #000;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.headerNav button:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.home-content h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home-content button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 18px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #000;
+  cursor: pointer;
+  border: 0;
+  transition: 0.6s;
+}
+.home-content button:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.home-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+.home {
+  margin-top: 200px;
+}
+.bg {
+  left: 0;
+  z-index: -9;
+  top: -30px;
+  position: absolute;
+  width: 208vh;
+}
+
+#blocks {
+  margin-top: 530px;
+}
+.block h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.151%; /* 43.568px */
+}
+.block {
+  padding: 50px 85px 115px 85px;
+  border-radius: 12px;
+  border: 3px solid rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+.blocks {
+  position: absolute;
+  display: flex;
+  gap: 37px;
+  left: 30px;
+  top: 260px;
+}
+
+.card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 14.8px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 30px 25px 50px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+.card h2 {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 136.151%; /* 54.46px */
+}
+.card h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 136.151%; /* 43.568px */
+}
+.card p {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 136.151%; /* 27.23px */
+}
+#pictures {
+  margin-top: 342px;
+}
+.pic-right {
+  position: absolute;
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pic-bottom {
+  display: flex;
+  position: relative;
+}
+.pic-right img {
+  margin: 10px;
+}
+
+.pic-bottom-bg {
+  margin-top: 10px;
+  margin-right: 3px;
+  height: 340px;
+}
+
+.end {
+  margin-top: 90px;
+  padding-bottom: 50px;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-right h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+.login-right h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-right input {
+  width: 502.238px;
+  height: 58.594px;
+  flex-shrink: 0;
+  border-radius: 6.697px;
+  border: 0.837px solid rgba(0, 0, 0, 0.4);
+  padding-left: 17px;
+}
+.login-right input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+  line-height: normal;
+}
+.vhod {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 16px 221.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #1d53c5;
+  border: none;
+  cursor: pointer;
+}
+
+.password {
+  position: relative;
+}
+
+.eye {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+
+.login-right h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.503px; /* 152.514% */
+}
+.login-right h3 span {
+  color: #1d53c5;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.503px; /* 152.514% */
+}
+
+.line h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.503px; /* 190.643% */
+}
+
+.line1 {
+  width: 139px;
+  height: 1px;
+  background: #1d53c5;
+}
+
+.buttons button {
+  color: #000;
+  font-family: Inter;
+  font-size: 20.09px;
+  font-weight: 500;
+  line-height: 25.533px; /* 127.095% */
+  width: 238.563px;
+  height: 51.061px;
+  border-radius: 5.859px;
+  border: 0.837px solid #1d53c5;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.login-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+.reg h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40.179px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 100px 0;
+}
+.reg h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+  line-height: normal;
+}
+.reg input {
+  width: 502.238px;
+  height: 58.594px;
+  flex-shrink: 0;
+  border-radius: 6.697px;
+  border: 0.837px solid rgba(0, 0, 0, 0.4);
+  padding-left: 17px;
+}
+.reg input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 200px;
+}
+.chek input {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+.chek {
+  display: flex;
+  align-items: center;
+}
+
+.regBtn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 16px 140px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #1d53c5;
+  border: none;
+  cursor: pointer;
+}
+
+.regPass {
+  position: relative;
+}
+.regPass img {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+
+.chat h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.chat input {
+  display: flex;
+  padding: 12px 170px 12px 20px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  background: #eee;
+  border: none;
+}
+.chat input::placeholder {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-right h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.card-right h4 {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.chat-card h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 144px;
+}
+
+.chat-card {
+  width: 357px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.card-right {
+  margin-left: 18px;
+}
